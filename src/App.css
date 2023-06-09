@@ -36,3 +36,221 @@
     transform: rotate(360deg);
   }
 }
+.formContainer{
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .formWrapper {
+    background-color: rgb(248, 246, 246);
+    height: 450px;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid  #5d5b8d;
+  }
+    .logo {
+      color: #5d5b8d;
+      font-weight: bold;
+      font-size: 45px;
+
+    }
+
+    .titleLogin {
+      color: #5d5b8d;
+      font-size: 20px;
+    }
+}
+.fields{
+  height: 100px;
+  width: 180px;
+  /* background-color: yellow; */
+}
+.boxx{
+  margin-bottom:10px ;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 20px;
+}
+.pp{
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.btn{
+  margin-left: 70px;
+}
+.Signupbox{
+  height: 100vh;
+  background-color: #a7bcff;
+  display: flex;
+  align-items: center;
+}
+.Signupcont{
+  border: 2px solid #5d5b8d;
+  height: 410px;
+  width: 300px;
+  background-color: white;
+  margin: auto ;
+  border-radius: 10px;
+}
+.signupfields{
+  height: 200px;
+  width: 200px;
+  /* background-color: yellow; */
+  margin: auto;
+}
+.signuplogo{
+  display: flex;
+  justify-content: center;
+  color: #5d5b8d;
+  font-weight: bold;
+  font-size: 45px;
+}
+.signuptitle{
+  display: flex;
+  justify-content: center;
+  color: #5d5b8d;
+  font-weight: bold;
+}
+.home{
+  height: 100vh;
+  background-color: #a7bcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .container{
+    border: 1px solid white;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    .sidebar{
+      flex: 1;
+      border-right: 2px solid #5d5b8d ;
+      background-color: #7e7cb6;
+    }
+    .chat{
+      flex: 2;
+    }
+    .navbar{
+      display: flex;
+      align-items: center;
+      background-color: #5d5b8d;
+      height: 50px;
+      padding: 2px;
+      justify-content: space-between ;
+      color: azure;
+
+      .navlogo{
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .user{
+        display: flex;
+        gap: 10px;
+      }
+      .img{
+        background-color: #61dafb;
+        height: 30px;
+        width: 28px;
+        border-radius: 10px;
+        /* object-fit: cover  ; */
+      }
+      .logoutbtn{
+        background-color: #7e7cb6;
+        color: aliceblue;
+        font-weight: bold;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .chat{
+    background-color: #c0bef0;
+  }
+  .search{
+    border-bottom: 1px solid #a7bcff;
+    .searchbar{
+      padding: 10px;  
+  }
+    .searchwindow{
+      background-color: transparent;
+      border: none;
+      color: white;
+      border-bottom: 1px solid white;
+      outline: none ;
+      &::placeholder{
+        color: #b6b5f6;
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+  .userchat{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color:white;
+
+    
+  }
+  .userimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: white;
+    &:hover{
+      background-color: #b6b5f6;
+    }
+  }
+  .navimg{
+    height: 1px;
+    width: 1px;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    cursor: pointer;
+  }
+  .userchatinfo{
+    display: flex;
+    align-items: center;
+    color: rgb(251, 253, 252);
+  }
+  }
+}
+.usernameinfo{
+  display: flex;
+  gap: 20px;
+}
+.chats{
+  background-color: #7e7cb6;
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 5px; */
+  &:hover{
+    background-color: #5d5b8d;
+  }
+  font-weight: bolder;
+  font-size: 28px;
+  color: #dadafa;
+  border-bottom: 1px solid #a7bcff  ;
+}
+.lastmsg{
+
+  font-weight: normal;
+  font-size: 15px;
+}
+.chatid{
+  color: white;
+}
